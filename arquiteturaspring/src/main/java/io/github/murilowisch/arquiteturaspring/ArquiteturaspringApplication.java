@@ -8,6 +8,7 @@ public class ArquiteturaspringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ArquiteturaspringApplication.class, args);
+		System.out.println("Oi");
 	}
 
 }
