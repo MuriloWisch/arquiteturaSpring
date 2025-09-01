@@ -46,5 +46,16 @@ public class Motor {
         this.tipo = tipo;
     }
 
+    @Override
+    public String toString() {
+        return "Motor{" +
+                "modelo='" + modelo + '\'' +
+                ", cavalos=" + cavalos +
+                ", cilindros=" + cilindros +
+                ", litragem=" + litragem +
+                ", tipo=" + tipo +
+                '}';
+    }
+
     private TipoMotor tipo;
 }
