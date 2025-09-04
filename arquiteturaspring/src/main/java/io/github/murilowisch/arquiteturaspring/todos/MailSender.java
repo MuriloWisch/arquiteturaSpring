@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MailSender {
-    public void envian(String mensagem){
+    public void enviar(String mensagem){
         System.out.println("Enviado email: " + mensagem);
     }
 }
