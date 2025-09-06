@@ -12,7 +12,7 @@ public class Application {
 		//SpringApplication.run(Application.class, args);
 		SpringApplicationBuilder builder = new SpringApplicationBuilder(Application.class);
 		builder.bannerMode(Banner.Mode.OFF);
-
+		
 		builder.run(args);
 	}
 }
